@@ -5,6 +5,6 @@ def line(arr)
     puts "The line is currently empty."
   end
 arr.each{|x|
-puts "The line is currently:#{x}. #{x} "
+puts "The line is currently:#{x.index + 1}. #{x} "
 }
 end
