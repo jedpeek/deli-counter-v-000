@@ -1,7 +1,7 @@
 # Write your code here.
 katz_deli = []
 def line(arr)
-current_line = []
+current_line = ""
 i = 0
 while i < arr.size
   current_line << ("#{i + 1}. #{arr[i]}")
