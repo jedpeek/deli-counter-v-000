@@ -10,5 +10,5 @@ while i < arr.size
 current_line = current_line << "#{i + 1}. #{arr[i]} "
 i += 1
 end
-puts "The line is currently: #{current_line}
+puts "The line is currently: #{current_line.to_s}"
 end
