@@ -22,3 +22,5 @@ end
 def now_serving(arr)
   if arr.size == 0
     puts "The line is empty."
+  end
+end
