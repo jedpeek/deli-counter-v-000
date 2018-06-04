@@ -13,3 +13,7 @@ if arr.size == 0
   puts "The line is currently:#{current_line}"
   end
 end
+
+def take_a_number(arr, str)
+  arr.push(str)
+  puts "#{str}, you are number #{arr.size + 1}"
