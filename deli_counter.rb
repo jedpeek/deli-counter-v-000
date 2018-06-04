@@ -3,7 +3,8 @@ katz_deli = []
 def line(arr)
 i = 0
 while i < arr.size
-  current_line = ("#{i + 1}. #{arr[i]}")
+  current_line = []
+  current_line << ("#{i + 1}. #{arr[i]}")
 i += 1
 end
 if arr.size == 0
