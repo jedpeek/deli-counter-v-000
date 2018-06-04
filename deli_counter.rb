@@ -7,7 +7,7 @@ def line(arr)
 i = 0
 while i < arr.size
   current_line = []
-current_line = current_line << "#{i + 1}. #{arr[i]} "
+current_line = current_line.push("#{i + 1}. #{arr[i]}")
 i += 1
 end
 puts "The line is currently: #{current_line.to_s}"
