@@ -16,4 +16,4 @@ end
 
 def take_a_number(arr, str)
   arr.push(str)
-  puts "#{str}, you are number #{arr.size + 1}"
+  puts "#{str}, you are number #{arr.size}"
