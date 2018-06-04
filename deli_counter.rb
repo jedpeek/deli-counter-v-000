@@ -4,7 +4,6 @@ def line(arr)
 current_line = []
 i = 0
 while i < arr.size
-
   current_line << ("#{i + 1}. #{arr[i]}")
 i += 1
 end
