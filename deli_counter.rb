@@ -7,11 +7,7 @@ while i < arr.size
   current_line << (" #{i + 1}. #{arr[i]}")
 i += 1
 end
-if arr.size == 0
-   puts "The line is currently empty."
- else
-  puts "The line is currently:#{current_line}"
-  end
+arr.size == 0 ? (puts "The line is currently empty.") : (puts "The line is currently:#{current_line}")
 end
 
 def take_a_number(arr, str)
