@@ -7,5 +7,6 @@ def line(arr)
 i = 0
 while i < arr.size
 puts "The line is currently:#{i}. #{arr[i]} "
-}
+i += 1
+end
 end
