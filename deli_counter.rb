@@ -4,7 +4,8 @@ def line(arr)
   if arr.size == 0
     puts "The line is currently empty."
   end
-arr.each{|x|
-puts "The line is currently:#{x.index + 1}. #{x} "
+i = 0
+while i < arr.size
+puts "The line is currently:#{i}. #{arr[i]} "
 }
 end
