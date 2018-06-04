@@ -18,3 +18,7 @@ def take_a_number(arr, str)
   arr.push(str)
   puts "Welcome, #{str}. You are number #{arr.size} in line."
 end
+
+def now_serving(arr)
+  if arr.size == 0
+    puts "The line is empty."
